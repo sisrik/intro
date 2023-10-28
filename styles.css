@@ -1,0 +1,32 @@
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    color: rgb(211, 94, 211);
+}
+
+.green-text {
+    color: green;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.socials {
+    /* flexbox brings all the elements inside it in one line, aligned horizontally */
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+/* 
+2 primitives for layouts
+
+1. Flexbox
+2. Grid
+
+*/
